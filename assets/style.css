@@ -26,13 +26,7 @@ body {
      
      /*configurando o flex da minha header */
  }
-
- .image-background {
-    background-image: url(assets/background-img1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
- }
+ 
  /* fixando a topbar-container no topo da tela*/
 
  .topbar-container {
@@ -100,7 +94,9 @@ li {
 
 /* configurando a seção com a descrição e as setas laterais*/
 .header-description {
-    width: 100%;
+    background-image: url(./images/Rectangle3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
 }
 
