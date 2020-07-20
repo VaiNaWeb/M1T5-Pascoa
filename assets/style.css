@@ -8,7 +8,6 @@ a :hover {opacity: 1;}*
 
 header {
      width: 100%;
-     max-width: 1366px;
      height: 100vh;
  }
  
@@ -72,6 +71,10 @@ li {
     color: #F28705;
 }
 
+.header-navbar li a:hover {
+    text-decoration: underline;
+}
+
 .products {
     font-weight: bold;
     text-decoration: underline 3px solid #ffffff;
@@ -87,6 +90,7 @@ li {
 
 .header-description p {
     width: 520px;
+    color: #fff;
     font-size: 3rem;
     font-weight: bold;
 }
@@ -101,7 +105,7 @@ li {
 /*MAIN*/
 main {
     display: flex;
-    width: 100vmax;
+    width: 100%;
     height: 917px;
     background: #FFFFFF;
 }
@@ -368,7 +372,6 @@ footer{
 }
 #circles-area{
     width: 100vw;
-    height: 638px;
     display: flex;
 }
 #circles-boxes{
@@ -693,3 +696,4 @@ footer{
 }
 .icon-hyperlink:hover{
     opacity:0.5;
+}
